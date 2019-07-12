@@ -27,7 +27,7 @@ public class FizzBuzz {
 //  }
   public String say(int num) {
     String result = "";
-    if (num % 3 == 0 || num % 5 == 0 || num % 7 == 0) {
+//    if (num % 3 == 0 || num % 5 == 0 || num % 7 == 0) {
       if (num % 3 == 0) {
         result += "Fizz";
       }
@@ -37,7 +37,7 @@ public class FizzBuzz {
       if (num % 7 == 0) {
         result += "Whizz";
       }
-    }
+//    }
     return result;
   }
 }
