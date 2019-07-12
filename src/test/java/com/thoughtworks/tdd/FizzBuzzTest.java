@@ -67,4 +67,12 @@ class FizzBuzzTest {
     String actualResult = fizzBuzz.say(student);
     assertEquals(actualResult,expectedResult);
   }
+  @Test
+  public void should_get_BuzzWhizz_when_given_35() {
+    int student = 35;
+    String expectedResult = "BuzzWhizz";
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    String actualResult = fizzBuzz.say(student);
+    assertEquals(actualResult,expectedResult);
+  }
 }
